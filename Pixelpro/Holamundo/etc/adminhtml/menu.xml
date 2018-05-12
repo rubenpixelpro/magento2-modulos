@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pixelpro_Holamundo::holamundo" title="Hola mundo" module="Pixelpro_Holamundo" sortOrder="51" resource="Pixelpro_Holamundo::holamundo"/>
+        <add id="Pixelpro_Holamundo::post" title="Posts" module="Pixelpro_Holamundo" sortOrder="10" action="pixelpro_holamundo/post" resource="Pixelpro_Holamundo::post" parent="Pixelpro_Holamundo::holamundo"/>
+       
+    </menu>
+</config>

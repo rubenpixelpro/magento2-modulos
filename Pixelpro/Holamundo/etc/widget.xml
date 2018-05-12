@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:holamundo:Magento_Widget:etc/widget.xsd">
+	<widget class="Pixelpro\Holamundo\Block\Widget\Posts" id="pixelpro_holamundo_posts">
+		<label>Blog Posts</label>
+		<description>Posts</description>
+		<parameters>
+			<parameter name="etiqueta" sort_order="10" visible="true" xsi:type="text">
+				<label>Etiqueta</label>
+			</parameter>
+		</parameters>
+	</widget>
+</widgets>
